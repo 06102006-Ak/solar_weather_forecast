@@ -1,0 +1,31 @@
+{
+  "location": {
+    "name": "Vijayawada, Andhra Pradesh, India",
+    "latitude": 16.5062,
+    "longitude": 80.648
+  },
+  "data": {
+    "start_date": "2019-01-01",
+    "end_date": "2024-12-31",
+    "hourly_parameters": [
+      "ALLSKY_SFC_SW_DWN",
+      "T2M"
+    ],
+    "daily_parameters": [
+      "ALLSKY_SFC_SW_DWN",
+      "T2M"
+    ],
+    "community": "RE",
+    "format": "JSON"
+  },
+  "paths": {
+    "raw_dir": "data/raw",
+    "processed_dir": "data/processed",
+    "results_dir": "data/results"
+  },
+  "forecast": {
+    "test_fraction": 0.2,
+    "fourier_harmonics_hourly": 4,
+    "fourier_harmonics_daily": 3
+  }
+}

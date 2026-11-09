@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+config/settings.json
+data/raw/*
+data/processed/*
+data/results/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/results/.gitkeep
